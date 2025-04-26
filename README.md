@@ -2,7 +2,7 @@
 Repositório com minhas soluções para os problem sets e projetos do [CS50x 2025](https://cs50.harvard.edu/x/2025/), o curso de introdução à ciência da computação de Harvard.
 O curso oferece uma introdução à ciência da computação, cobrindo temas como algoritmos, estruturas de dados, C, Python, SQL, web, etc. CS50x é uma versão gratuita e aberta do curso CS50 original de Harvard e é ministrado por David J. Malan.
 
- 📋 Estrutura do Curso
+## 📋 Estrutura do Curso
 | Semana | Tópicos Principais | Problem Sets |
 |--------|--------------------|--------------|
 | 0 | Pensamento Computacional | [Scratch](https://cs50.harvard.edu/x/2025/psets/0/) |
