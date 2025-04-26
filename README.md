@@ -3,19 +3,19 @@ Repositório com minhas soluções para os problem sets e projetos do [CS50x 202
 O curso oferece uma introdução à ciência da computação, cobrindo temas como algoritmos, estruturas de dados, C, Python, SQL, web, etc. CS50x é uma versão gratuita e aberta do curso CS50 original de Harvard e é ministrado por David J. Malan.
 
  📋 Estrutura do Curso
-| Semana | Tópicos Principais | Projetos |
-|--------|--------------------|----------|
-| 0 | Pensamento Computacional | [Scratch Project](week0/scratch/) |
-| 1 | C: Sintaxe, Compilação | [Mario](week1/mario/), [Cash](week1/cash/) |
-| 2 | Arrays, Algoritmos | [Readability](week2/readability/), [Caesar](week2/caesar/) |
-| 3 | Algoritmos, Complexidade | [Plurality](week3/plurality/), [Runoff](week3/runoff/) |
-| 4 | Memória, Ponteiros | [Filter](week4/filter/), [Recover](week4/recover/) |
-| 5 | Estruturas de Dados | [Speller](week5/speller/) |
-| 6 | Python: Sintaxe, Bibliotecas | [Hello](week6/hello/), [DNA](week6/dna/) |
-| 7 | SQL, Bancos de Dados | [Movies](week7/movies/), [Houses](week7/houses/) |
-| 8 | HTML, CSS, JavaScript | [Homepage](week8/homepage/) |
-| 9 | Flask, Web Development | [Finance](week9/finance/) |
-| Final | Projeto Integrado | [Final Project](final_project/) |
+| Semana | Tópicos Principais | Problem Sets |
+|--------|--------------------|--------------|
+| 0 | Pensamento Computacional | [Scratch](https://cs50.harvard.edu/x/2025/psets/0/) |
+| 1 | Sintaxe C, Compilação | [Mario (More)](https://cs50.harvard.edu/x/2025/psets/1/mario/more/), [Credit]((https://cs50.harvard.edu/x/2025/psets/1/credit/) |
+| 2 | Arrays, Algoritmos | [Readability](https://cs50.harvard.edu/x/2025/psets/2/readability/), [Caesar](https://cs50.harvard.edu/x/2025/psets/2/caesar/) |
+| 3 | Algoritmos de Ordenação | [Plurality](https://cs50.harvard.edu/x/2025/psets/3/plurality/), [Runoff](https://cs50.harvard.edu/x/2025/psets/3/runoff/) |
+| 4 | Memória, Ponteiros | [Filter](https://cs50.harvard.edu/x/2025/psets/4/filter/), [Recover](https://cs50.harvard.edu/x/2025/psets/4/recover/) |
+| 5 | Estruturas de Dados | [Speller](https://cs50.harvard.edu/x/2025/psets/5/speller/) |
+| 6 | Python | [Hello](https://cs50.harvard.edu/x/2025/psets/6/hello/), [DNA](https://cs50.harvard.edu/x/2025/psets/6/dna/) |
+| 7 | SQL | [Movies](https://cs50.harvard.edu/x/2025/psets/7/movies/), [Houses](https://cs50.harvard.edu/x/2025/psets/7/houses/) |
+| 8 | HTML, CSS, JS | [Homepage](https://cs50.harvard.edu/x/2025/psets/8/homepage/) |
+| 9 | Flask | [Finance](https://cs50.harvard.edu/x/2025/psets/9/finance/) |
+| Final | Projeto Integrado | [Final Project](https://cs50.harvard.edu/x/2025/project/) |
 
 ## 🛠 Tecnologias Utilizadas
 
