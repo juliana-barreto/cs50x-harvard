@@ -6,7 +6,7 @@ O curso oferece uma introdução à ciência da computação, cobrindo temas com
 | Semana | Tópicos Principais | Problem Sets |
 |--------|--------------------|--------------|
 | 0 | Pensamento Computacional | [Scratch](https://cs50.harvard.edu/x/2025/psets/0/) |
-| 1 | Sintaxe C, Compilação | [Mario (More)](https://cs50.harvard.edu/x/2025/psets/1/mario/more/), [Credit]((https://cs50.harvard.edu/x/2025/psets/1/credit/) |
+| 1 | Sintaxe C, Compilação | [Mario(More)](https://cs50.harvard.edu/x/2025/psets/1/mario/more/), [Credit](https://cs50.harvard.edu/x/2025/psets/1/credit/) |
 | 2 | Arrays, Algoritmos | [Readability](https://cs50.harvard.edu/x/2025/psets/2/readability/), [Caesar](https://cs50.harvard.edu/x/2025/psets/2/caesar/) |
 | 3 | Algoritmos de Ordenação | [Plurality](https://cs50.harvard.edu/x/2025/psets/3/plurality/), [Runoff](https://cs50.harvard.edu/x/2025/psets/3/runoff/) |
 | 4 | Memória, Ponteiros | [Filter](https://cs50.harvard.edu/x/2025/psets/4/filter/), [Recover](https://cs50.harvard.edu/x/2025/psets/4/recover/) |
