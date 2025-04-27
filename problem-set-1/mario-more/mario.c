@@ -1,16 +1,22 @@
 #include <stdio.h>
 
 void bricksbuilder(int height){
-  int i, j;
-  for (i = 1; i <= height; i++)
-      for (j = 1; j < height - i; j++)
-          printf(" ");
-      for (j = 1; j <= i; j++)
-          printf("#");
-      printf("  ");
-      for (j = 1; j <= i; j++)
-          printf("#");
-      printf("\n");
+  int row, space, leftBlock, rightBlock;
+  for (row = 1; row <= height; row++) {
+    // Print spaces on the left
+    for (space = 1; space <= height - row; space++)
+      printf(" ");
+    // Print left side blocks
+    for (leftBlock = 1; leftBlock <= row; leftBlock++) 
+      printf("#");
+  // Print space between the blocks
+  printf("  ");
+    // Print right side blocks
+    for (rightBlock = 1; rightBlock <= row; rightBlock++)
+    printf("#");
+  //Line break
+  printf("\n");
+  }
 }
 int main(void){
   int height;
