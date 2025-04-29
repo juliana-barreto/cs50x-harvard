@@ -1,9 +1,10 @@
-# 🖥️ CS50x – Problem Sets
-Repositório com minhas soluções para os problem sets e projetos do [CS50x 2025](https://cs50.harvard.edu/x/2025/), o curso de introdução à ciência da computação de Harvard.
+# 🖥️ CS50x – Problems
+Repositório com minhas soluções para os problem sets e exercícios do [CS50x 2025](https://cs50.harvard.edu/x/2025/), o curso de introdução à ciência da computação de Harvard.
 O curso oferece uma introdução à ciência da computação, cobrindo temas como algoritmos, estruturas de dados, C, Python, SQL, web, etc. CS50x é uma versão gratuita e aberta do curso CS50 original de Harvard e é ministrado por David J. Malan.
 
 ## 📋 Estrutura do Curso
-| Semana | Tópicos Principais | Problem Sets |
+### Problem Sets
+| Semana | Tópicos Principais | Links |
 |--------|--------------------|--------------|
 | 0 | Pensamento Computacional | [Scratch](https://cs50.harvard.edu/x/2025/psets/0/) |
 | 1 | Sintaxe C, Compilação | [Mario(More)](https://cs50.harvard.edu/x/2025/psets/1/mario/more/), [Credit](https://cs50.harvard.edu/x/2025/psets/1/credit/) |
@@ -17,7 +18,8 @@ O curso oferece uma introdução à ciência da computação, cobrindo temas com
 | 9 | Flask | [Finance](https://cs50.harvard.edu/x/2025/psets/9/finance/) |
 | Final | Projeto Integrado | [Final Project](https://cs50.harvard.edu/x/2025/project/) |
 
-| Semana | Tópicos Principais | Practice Problems |
+###Practice Problems 
+| Semana | Tópicos Principais | Links |
 |--------|--------------------|-------------------|
 | 1 | Fundamentos de C | [Debug](https://cs50.harvard.edu/x/2025/practice/1/debug/), [Half](https://cs50.harvard.edu/x/2025/practice/1/half/) |
 | 2 | Arrays e Strings | [Prime](https://cs50.harvard.edu/x/2025/practice/2/prime/), [Swap](https://cs50.harvard.edu/x/2025/practice/2/swap/) |
