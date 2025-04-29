@@ -1,6 +1,6 @@
 # 🖥️ CS50x – Problems
 Repositório com minhas soluções para os problem sets e exercícios do [CS50x 2025](https://cs50.harvard.edu/x/2025/), o curso de introdução à ciência da computação de Harvard.
-O curso oferece uma introdução à ciência da computação, cobrindo temas como algoritmos, estruturas de dados, C, Python, SQL, web, etc. CS50x é uma versão gratuita e aberta do curso CS50 original de Harvard e é ministrado por David J. Malan.
+O curso, é ministrado por David J. Malan, oferece uma introdução à ciência da computação é uma versão gratuita e aberta do curso CS50 original de Harvard.
 
 ## 📋 Estrutura do Curso
 | Semana | Tópicos Principais | Problem Sets | Practice Problems |
@@ -22,5 +22,8 @@ O curso oferece uma introdução à ciência da computação, cobrindo temas com
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
