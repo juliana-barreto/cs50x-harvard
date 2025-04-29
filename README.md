@@ -4,7 +4,7 @@ O curso oferece uma introdução à ciência da computação, cobrindo temas com
 
 ## 📋 Estrutura do Curso
 | Semana | Tópicos Principais | Problem Sets | Practice Problems |
-|--------|--------------------|--------------|
+|--------|--------------------|--------------| ----------------- | 
 | 0 | Pensamento Computacional | [Scratch](https://cs50.harvard.edu/x/2025/psets/0/) | - |
 | 1 | Fundamentos de C | [Mario(More)](https://cs50.harvard.edu/x/2025/psets/1/mario/more/), [Credit](https://cs50.harvard.edu/x/2025/psets/1/credit/) | [Debug](https://cs50.harvard.edu/x/2025/practice/1/debug/), [Half](https://cs50.harvard.edu/x/2025/practice/1/half/) |
 | 2 |  Arrays e Strings | [Readability](https://cs50.harvard.edu/x/2025/psets/2/readability/), [Caesar](https://cs50.harvard.edu/x/2025/psets/2/caesar/) | [Prime](https://cs50.harvard.edu/x/2025/practice/2/prime/), [Swap](https://cs50.harvard.edu/x/2025/practice/2/swap/) |
