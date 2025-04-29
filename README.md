@@ -4,17 +4,17 @@ O curso oferece uma introdução à ciência da computação, cobrindo temas com
 
 ## 📋 Estrutura do Curso
 | Semana | Tópicos Principais | Problem Sets | Practice Problems |
-|:------:|:------------------:|:------------:| :---------------: | 
-| 0 | Pensamento Computacional | [Scratch](https://cs50.harvard.edu/x/2025/psets/0/scratch/) | - |
-| 1 | Fundamentos de C | [Mario(More)](https://cs50.harvard.edu/x/2025/psets/1/mario/more/), [Credit](https://cs50.harvard.edu/x/2025/psets/1/credit/) | [Debug](https://cs50.harvard.edu/x/2025/practice/1/debug/), [Half](https://cs50.harvard.edu/x/2025/practice/1/half/) |
-| 2 |  Arrays e Strings | [Readability](https://cs50.harvard.edu/x/2025/psets/2/readability/), [Caesar](https://cs50.harvard.edu/x/2025/psets/2/caesar/) | [Prime](https://cs50.harvard.edu/x/2025/practice/2/prime/), [Swap](https://cs50.harvard.edu/x/2025/practice/2/swap/) |
-| 3 | Algoritmos de Ordenação | [Plurality](https://cs50.harvard.edu/x/2025/psets/3/plurality/), [Runoff](https://cs50.harvard.edu/x/2025/psets/3/runoff/) | [Sort](https://cs50.harvard.edu/x/2025/practice/3/sort/), [Tideman](https://cs50.harvard.edu/x/2025/practice/3/tideman/) |
-| 4 | Memória e Ponteiros | [Filter](https://cs50.harvard.edu/x/2025/psets/4/filter/), [Recover](https://cs50.harvard.edu/x/2025/psets/4/recover/) | [Hex](https://cs50.harvard.edu/x/2025/practice/4/hex/), [Malloc](https://cs50.harvard.edu/x/2025/practice/4/malloc/) |
-| 5 | Estruturas de Dados | [Speller](https://cs50.harvard.edu/x/2025/psets/5/speller/) | [Inheritance](https://cs50.harvard.edu/x/2025/practice/5/inheritance/), [LinkedList](https://cs50.harvard.edu/x/2025/practice/5/linkedlist/) |
-| 6 | Python | [Hello](https://cs50.harvard.edu/x/2025/psets/6/hello/), [DNA](https://cs50.harvard.edu/x/2025/psets/6/dna/) | [Fuel](https://cs50.harvard.edu/x/2025/practice/6/fuel/), [Frank](https://cs50.harvard.edu/x/2025/practice/6/frank/) |
-| 7 | SQL | [Movies](https://cs50.harvard.edu/x/2025/psets/7/movies/), [Houses](https://cs50.harvard.edu/x/2025/psets/7/houses/) | [Books](https://cs50.harvard.edu/x/2025/practice/7/books/), [Fiftyville](https://cs50.harvard.edu/x/2025/practice/7/fiftyville/) |
-| 8 | HTML, CSS, JS | [Homepage](https://cs50.harvard.edu/x/2025/psets/8/homepage/) | [CSS](https://cs50.harvard.edu/x/2025/practice/8/css/), [JavaScript](https://cs50.harvard.edu/x/2025/practice/8/javascript/) |
-| 9 | Flask | [Finance](https://cs50.harvard.edu/x/2025/psets/9/finance/) |  [Session](https://cs50.harvard.edu/x/2025/practice/9/session/), [API](https://cs50.harvard.edu/x/2025/practice/9/api/) |
+|:------:|:------------------:|:------------:|:-----------------:|
+| 0 | Pensamento Computacional | [Scratch](https://cs50.harvard.edu/x/2025/psets/0/) | - |
+| 1 | Fundamentos de C | [Mario (More)](https://cs50.harvard.edu/x/2025/psets/1/mario/more/), [Credit](https://cs50.harvard.edu/x/2025/psets/1/credit/) | [Debug](https://cs50.harvard.edu/x/2025/practice/debug/), [Half](https://cs50.harvard.edu/x/2025/practice/half/), [Prime](https://cs50.harvard.edu/x/2025/practice/prime/) |
+| 2 | Arrays e Strings | [Readability](https://cs50.harvard.edu/x/2025/psets/2/readability/), [Caesar](https://cs50.harvard.edu/x/2025/psets/2/caesar/) | [Hours](https://cs50.harvard.edu/x/2025/practice/hours/), [N0 V0w3ls](https://cs50.harvard.edu/x/2025/practice/no-vowels/), [Password](https://cs50.harvard.edu/x/2025/practice/password/)|
+| 3 | Algoritmos | [Plurality](https://cs50.harvard.edu/x/2025/psets/3/plurality/), [Runoff](https://cs50.harvard.edu/x/2025/psets/3/runoff/) | [Recursive atoi](https://cs50.harvard.edu/x/2025/practice/atoi/), [Average Temperatures](https://cs50.harvard.edu/x/2025/practice/temps/), [Max](https://cs50.harvard.edu/x/2025/practice/max/), [Snackbar](https://cs50.harvard.edu/x/2025/practice/snackbar/) |
+| 4 | Ponteiros | [Filter](https://cs50.harvard.edu/x/2025/psets/4/filter/), [Recover](https://cs50.harvard.edu/x/2025/psets/4/recover/) | [Bottom up](https://cs50.harvard.edu/x/2025/practice/bottomup/), [License](https://cs50.harvard.edu/x/2025/practice/license/) |
+| 5 | Estruturas de Dados | [Speller](https://cs50.harvard.edu/x/2025/psets/5/speller/) | [Trie](https://cs50.harvard.edu/x/2025/practice/trie/) |
+| 6 | Python | [Hello](https://cs50.harvard.edu/x/2025/psets/6/hello/), [DNA](https://cs50.harvard.edu/x/2025/psets/6/dna/) | [Bank](https://cs50.harvard.edu/x/2025/practice/bank/), [Frank, Ian and Glen’s Letters](https://cs50.harvard.edu/x/2025/practice/figlet/), [Jar](https://cs50.harvard.edu/x/2025/practice/jar/), [Seven Day Average](https://cs50.harvard.edu/x/2025/practice/seven-day-average/), [Taqueria](https://cs50.harvard.edu/x/2025/practice/taqueria/) |
+| 7 | SQL | [Movies](https://cs50.harvard.edu/x/2025/psets/7/movies/), [Houses](https://cs50.harvard.edu/x/2025/psets/7/houses/) | [Favorites](https://cs50.harvard.edu/x/2025/practice/favorites/), [Hall of Prophecy](https://cs50.harvard.edu/x/2025/practice/prophecy/) |
+| 8 | Web (HTML/CSS/JS) | [Homepage](https://cs50.harvard.edu/x/2025/psets/8/homepage/) | [Radio Shack Redo](https://cs50.harvard.edu/x/2025/practice/redo/) |
+| 9 | Flask | [Finance](https://cs50.harvard.edu/x/2025/psets/9/finance/) | [Hello, Flask](https://cs50.harvard.edu/x/2025/practice/helloflask/) |
 | Final | Projeto Integrado | [Final Project](https://cs50.harvard.edu/x/2025/project/) | - |
 
 ## 🛠 Tecnologias Utilizadas
