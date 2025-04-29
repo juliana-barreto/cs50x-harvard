@@ -17,6 +17,18 @@ O curso oferece uma introdução à ciência da computação, cobrindo temas com
 | 9 | Flask | [Finance](https://cs50.harvard.edu/x/2025/psets/9/finance/) |
 | Final | Projeto Integrado | [Final Project](https://cs50.harvard.edu/x/2025/project/) |
 
+| Semana | Tópicos Principais | Practice Problems |
+|--------|--------------------|-------------------|
+| 1 | Fundamentos de C | [Debug](https://cs50.harvard.edu/x/2025/practice/1/debug/), [Half](https://cs50.harvard.edu/x/2025/practice/1/half/) |
+| 2 | Arrays e Strings | [Prime](https://cs50.harvard.edu/x/2025/practice/2/prime/), [Swap](https://cs50.harvard.edu/x/2025/practice/2/swap/) |
+| 3 | Algoritmos | [Sort](https://cs50.harvard.edu/x/2025/practice/3/sort/), [Tideman](https://cs50.harvard.edu/x/2025/practice/3/tideman/) |
+| 4 | Ponteiros e Memória | [Hex](https://cs50.harvard.edu/x/2025/practice/4/hex/), [Malloc](https://cs50.harvard.edu/x/2025/practice/4/malloc/) |
+| 5 | Estruturas de Dados | [Inheritance](https://cs50.harvard.edu/x/2025/practice/5/inheritance/), [LinkedList](https://cs50.harvard.edu/x/2025/practice/5/linkedlist/) |
+| 6 | Python | [Fuel](https://cs50.harvard.edu/x/2025/practice/6/fuel/), [Frank](https://cs50.harvard.edu/x/2025/practice/6/frank/) |
+| 7 | SQL | [Books](https://cs50.harvard.edu/x/2025/practice/7/books/), [Fiftyville](https://cs50.harvard.edu/x/2025/practice/7/fiftyville/) |
+| 8 | Front-end | [CSS](https://cs50.harvard.edu/x/2025/practice/8/css/), [JavaScript](https://cs50.harvard.edu/x/2025/practice/8/javascript/) |
+| 9 | Flask | [Session](https://cs50.harvard.edu/x/2025/practice/9/session/), [API](https://cs50.harvard.edu/x/2025/practice/9/api/) |
+
 ## 🛠 Tecnologias Utilizadas
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
