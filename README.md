@@ -18,7 +18,7 @@ O curso oferece uma introdução à ciência da computação, cobrindo temas com
 | 9 | Flask | [Finance](https://cs50.harvard.edu/x/2025/psets/9/finance/) |
 | Final | Projeto Integrado | [Final Project](https://cs50.harvard.edu/x/2025/project/) |
 
-###Practice Problems 
+### Practice Problems 
 | Semana | Tópicos Principais | Links |
 |--------|--------------------|-------------------|
 | 1 | Fundamentos de C | [Debug](https://cs50.harvard.edu/x/2025/practice/1/debug/), [Half](https://cs50.harvard.edu/x/2025/practice/1/half/) |
