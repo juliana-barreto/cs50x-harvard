@@ -1,3 +1,5 @@
+// Program that prompts the user for their name and then says hello to that user.
+
 #include <stdio.h>
 
 int main(void){

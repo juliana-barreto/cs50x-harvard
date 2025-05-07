@@ -1,3 +1,5 @@
+// Program that recreates that pyramid, using hashes (#) for bricks
+
 #include <stdio.h>
 
 void bricksbuilder(int height){
