@@ -26,13 +26,16 @@ int calculate_score(char *word) {
   }
   return sum;
 }
+
 int main(){
   char player1[100], player2[100];
   int score1 = 0, score2 = 0;
   printf("Player 1: ");
   fgets(player1, sizeof(player1), stdin);
+  player1[strcspn(player1, "\n")] = '\0';
   printf("Player 2: ");
   fgets(player2, sizeof(player2), stdin);
+  player2[strcspn(player2, "\n")] = '\0';
   score1 = calculate_score(player1);
   score2 = calculate_score(player2);
   if (score1 > score2){

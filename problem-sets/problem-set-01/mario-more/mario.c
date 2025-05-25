@@ -20,6 +20,7 @@ void bricksbuilder(int height){
   printf("\n");
   }
 }
+
 int main(void){
   int height;
   printf("Height: ");

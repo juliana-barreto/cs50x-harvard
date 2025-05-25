@@ -27,11 +27,12 @@ int valid(char *password) {
     // If password is missing any requirement, return false
     return 0;
 }
+
 int main(void) {
     char password[100];
     printf("Enter your password: ");
     fgets(password, sizeof(password), stdin);
-    strcspn(password, "\n");
+    password[strcspn(password, "\n")] = '\0';
     if (valid(password)) {
         printf("Your password is valid!\n");
     } else {

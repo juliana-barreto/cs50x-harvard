@@ -13,6 +13,7 @@ int first_sum(int length, char *card){
   }
   return sum;
 }
+
 int sec_sum(int length, char *card){
   int i, digit, sum = 0; 
   for (i = length -1; i >= 0; i -= 2) {
@@ -21,11 +22,13 @@ int sec_sum(int length, char *card){
   }
   return sum;
 }
+
 int main () {
   char card[20];
   int length, sum_1, sum_2, sum, i;
   printf("Insert the card number: ");
-  gets(card);
+  fgets(card, sizeof(card), stdin);
+  card[strcspn(card, "\n")] = '\0';
   length = strlen(card);
   for (i = 0; i < length; i++) {
     if (!isdigit(card[i])) {

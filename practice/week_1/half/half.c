@@ -9,12 +9,13 @@ float half(float bill, float tax, int tip){
   // Calculate total after adding tax
   total = bill + tax_amount;
   // Calculate tip based on the taxed amount
-  tip_amount = total * (tip / 100);
+  tip_amount = total * (float)tip / 100;
   // Add tip to get final total
   total += tip_amount;
    // Return half of the total amount
   return total/2;
 }
+
 int main(void)
 {
     float bill_amount,tax_percent;

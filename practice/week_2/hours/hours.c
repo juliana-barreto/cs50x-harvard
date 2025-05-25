@@ -1,8 +1,6 @@
 // Program that tracks and calculates total/average study hours for CS50 course
 
-#include <ctype.h>
 #include <stdio.h>
-#include <string.h>
 
 float calc_hours(int hours[], int weeks, char output) {
     int sum = 0;
@@ -17,7 +15,9 @@ float calc_hours(int hours[], int weeks, char output) {
         case 'a':
             return ((float)sum / weeks);
     }
+    return 0;
 }
+
 int main( ) {
     int weeks;
     printf("Number of weeks taking CS50: ");

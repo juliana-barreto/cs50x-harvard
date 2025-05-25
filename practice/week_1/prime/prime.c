@@ -14,6 +14,7 @@ int prime(int number) {
     // If no divisors found, number is prime
     return 1; 
 }
+
 int main(void) {
     int min, max;
     // Get minimum number (must be at least 1)

@@ -10,17 +10,19 @@ int check_length(const char *key) {
     return 1;
   }
   return 0;
-  }
+}
+
 int check_alpha(const char *key) {
-    while (*key != '\0') {
-    if (!isalpha(*key)) {
-      printf("Key must contain only alphabetical characters.\n");
-      return 1;
-    }
-      key++;
-    }
-    return 0;
+  while (*key != '\0') {
+  if (!isalpha(*key)) {
+    printf("Key must contain only alphabetical characters.\n");
+    return 1;
   }
+    key++;
+  }
+  return 0;
+}
+
 int check_repeated (const char *key) {
   int used[26] = {0};
   while (*key != '\0') {
@@ -34,6 +36,7 @@ int check_repeated (const char *key) {
   }
   return 0;
 }
+
 void encrypt (const char *key, const char *text, char *encrypted) {
   int i;
   for (i = 0; text[i] != '\0'; i++) {
@@ -48,6 +51,7 @@ void encrypt (const char *key, const char *text, char *encrypted) {
   }
   encrypted[i] = '\0';
 }
+
 int main(int argc, char *argv[]) {
   char plaintext[1000], encrypted[1000];
   if (argc != 2) {

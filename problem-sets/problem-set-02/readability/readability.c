@@ -23,11 +23,12 @@ int readability(char text[]) {
     return (int)index;
   }
 }
+
 int main(){
   char text[1000];
   printf("Text: ");
   fgets(text, sizeof(text), stdin);
-  text[strcspn(text, "\n")] = 0;
+  text[strcspn(text, "\n")] = '\0';
   int index = readability(text);
   if (index < 1) {
     printf("Before Grade 1\n");

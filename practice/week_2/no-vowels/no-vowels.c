@@ -1,7 +1,4 @@
 // Write a function to replace vowels with numbers
-// Get practice with strings
-// Get practice with command line
-// Get practice with switch
 
 #include <stdio.h>
 #include <string.h>
@@ -24,6 +21,7 @@ char* replace(char *word) {
   }
   return word;
 }
+
 int main(int argc, char *argv[]) {
   if (argc != 2){
     printf("You must provide one word as an argument.\n");
