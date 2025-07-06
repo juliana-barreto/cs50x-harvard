@@ -45,9 +45,9 @@ void print_winner(void) {
         printf("%s\n", candidates[winners_index[0]].name);
     } else {
         // If there are multiple winners, print all their names
-        printf("Tie between: ");
+        printf("Tie between ");
         for (int i = 0; i < winner_count; i++) {
-            printf("%s\n", candidates[winners_index[i]].name);
+            printf("%s ", candidates[winners_index[i]].name);
         }
     }
 }
