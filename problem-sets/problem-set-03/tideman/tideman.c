@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <cs50.h> //just to fix a compatibility error when running check50
 
 // Max number of candidates
 #define MAX 9
@@ -14,7 +15,7 @@ typedef struct {
     int loser;
 } pair;
 // Array of candidates
-char candidates[MAX][100];
+char* candidates[MAX];
 pair pairs[MAX * (MAX - 1) / 2];
 int pair_count = 0;
 int candidate_count = 0;
@@ -97,11 +98,18 @@ void lock_pairs(void) {
 // Print the winner of the election
 void print_winner(void) {
     for (int i = 0; i < candidate_count; i++) {
+        // Assume the current candidate 'i' is the source
+        int is_source = 1;
         for (int j = 0; j < candidate_count; j++) {
+            // If an incoming edge is found, 'i' cannot be the source
             if (locked[j][i] == 1) {
+                is_source = 0;
                 break;
             }
-            printf("%s wins\n", candidates[i]);
+        }
+        // If the flag is still true, it means no incoming edges were found
+        if (is_source == 1) {
+            printf("%s\n", candidates[i]);
             return;
         }
     }
@@ -119,7 +127,7 @@ int main(int argc, char* argv[]) {
         return 2;
     }
     for (int i = 0; i < candidate_count; i++) {
-        strcpy(candidates[i], argv[i + 1]);
+        candidates[i] = argv[i + 1];
     }
     // Clear graph of locked in pairs
     for (int i = 0; i < candidate_count; i++) {

@@ -23,10 +23,12 @@ void bricksbuilder(int height){
 
 int main(void){
   int height;
-  printf("Height: ");
-  scanf("%d", &height);
-  if (height < 1 || height > 8)
-    printf("Height must be between 1 and 8!\n");
-  else
+    do {
+        printf("Height: ");
+        scanf("%d", &height);
+        if (height < 1 || height > 8) {
+            printf("Height must be between 1 and 8!\n");
+        }
+    } while (height < 1 || height > 8);
     bricksbuilder(height);
 }

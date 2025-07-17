@@ -47,7 +47,7 @@ int main () {
     printf("INVALID\n");
   else 
     if (length == 15 && card[0] == '3' && (card[1] == '4' || card[1] == '7'))
-      printf("AMERICAN EXPRESS\n");
+      printf("AMEX\n");
     else 
       if (length == 16 && card [0] == '5' && (card[1] == '1' || card[1] == '2' || card[1] == '3' || card[1] == '4' || card[1]== '5'))
         printf("MASTERCARD\n");
@@ -55,6 +55,6 @@ int main () {
         if ((length == 13 || length == 16) && card[0] == '4')
          printf("VISA\n");
         else  
-          printf("UNKNOWN\n");
+          printf("INVALID\n");
   return 0;
 }

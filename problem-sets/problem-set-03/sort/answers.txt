@@ -1,12 +1,12 @@
 sort1 uses: Bubble Sort
-How do you know?: The huge difference in execution times between the reversed input (8.739s) and the sorted input (0.018s)
+How do you know?: The huge difference in execution times between the reversed input (9.536s) and the sorted input (0.510s)
 indicates that the worst-case scenario occurs when the algorithm must swap every element during each pass.
 
-sort2 uses: Selection Sort
-How do you know?: The considerable difference in execution times between the reversed (0.188s) and sorted (0.018s) inputs
-suggests that the algorithm's performance is highly dependent on the initial order of the elements.
-
-sort3 uses: Merge Sort
-How do you know?: The consistent execution times for both reversed (0.073s) and sorted (0.078s) inputs demonstrate that
+sort2 uses: Merge Sort
+How do you know?:The consistent execution times for both reversed (0.491s) and sorted (0.418s) inputs demonstrate that
 the algorithm's performance is not significantly affected by the initial order of the data, maintaining high efficiency
 in both scenarios.
+
+sort3 uses: Selection Sort
+How do you know?: The similar execution times between the reversed (5.485s) and sorted (5.665s) inputs suggests is also not
+significantly affected by the initial order of the data, but its notably less efficient than merge sort.
