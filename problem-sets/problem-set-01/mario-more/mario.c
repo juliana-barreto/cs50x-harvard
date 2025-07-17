@@ -15,7 +15,7 @@ void bricksbuilder(int height){
   printf("  ");
     // Print right side blocks
     for (rightBlock = 1; rightBlock <= row; rightBlock++)
-    printf("#");
+      printf("#");
   //Line break
   printf("\n");
   }
