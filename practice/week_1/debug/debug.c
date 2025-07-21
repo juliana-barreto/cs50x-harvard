@@ -1,9 +1,10 @@
-//Program that collects user input for their name and location, then displays a personalized greeting.
+/* Program that collects user input for their name and location, then displays a
+personalized greeting. */
 
 #include <stdio.h>
 #include <string.h>
 
-int main( ){
+int main() {
   char name[50], location[100];
   printf("What is your name? ");
   fgets(name, sizeof(name), stdin);

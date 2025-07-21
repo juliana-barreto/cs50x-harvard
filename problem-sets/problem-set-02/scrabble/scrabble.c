@@ -1,12 +1,13 @@
-// Program that determines the winner of a short Scrabble-like game. 
+// Program that determines the winner of a short Scrabble-like game.
 
-#include <stdio.h>
 #include <ctype.h>
+#include <stdio.h>
 #include <string.h>
 
 int calculate_score(char *word) {
   int sum = 0;
-  char *one = "AEILNORSTU", *two = "DG", *three = "BCMP", *four = "FHVWY", *eight = "JX", *ten = "QZ";
+  char *one = "AEILNORSTU", *two = "DG", *three = "BCMP", *four = "FHVWY",
+       *eight = "JX", *ten = "QZ";
   char five = 'K';
   for (int i = 0; word[i] != '\0'; i++) {
     if (strchr(one, toupper(word[i])) != NULL)
@@ -27,7 +28,7 @@ int calculate_score(char *word) {
   return sum;
 }
 
-int main(){
+int main() {
   char player1[100], player2[100];
   int score1 = 0, score2 = 0;
   printf("Player 1: ");
@@ -38,11 +39,11 @@ int main(){
   player2[strcspn(player2, "\n")] = '\0';
   score1 = calculate_score(player1);
   score2 = calculate_score(player2);
-  if (score1 > score2){
-  printf("Player 1 wins!\n");
-  } else if (score2 > score1){
-  printf("Player 2 wins!\n");
-  } else { 
-  printf("Tie!\n");
+  if (score1 > score2) {
+    printf("Player 1 wins!\n");
+  } else if (score2 > score1) {
+    printf("Player 2 wins!\n");
+  } else {
+    printf("Tie!\n");
   }
 }
