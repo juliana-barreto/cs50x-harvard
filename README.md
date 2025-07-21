@@ -1,5 +1,5 @@
 # 🖥️ CS50x
-Repository with my solutions for the problem sets and exercises from [CS50x 2025](https://cs50.harvard.edu/x/2025/), Harvard's introduction to computer science course taught by David J. Malan. It is a free and open version of Harvard's original CS50 course.
+This repository contains my solutions to the problem sets and exercises for [CS50x 2025](https://cs50.harvard.edu/x/2025/), Harvard University's renowned introduction to computer science course. Taught by David J. Malan, the course is the public, open-access version of the original on-campus CS50
 
 ## 📋 Course Structure
 | Week | Main Topics | Problem Sets | Practice Problems |
