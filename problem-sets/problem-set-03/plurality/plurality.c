@@ -1,3 +1,5 @@
+// Program that runs a plurality election
+
 #include <stdio.h>
 #include <string.h>
 #include <cs50.h> //just to fix a compatibility error when running check50

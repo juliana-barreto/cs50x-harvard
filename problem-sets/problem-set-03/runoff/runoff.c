@@ -1,3 +1,5 @@
+// Program that simulates a runoff election
+
 #include <stdio.h>
 #include <string.h>
 
