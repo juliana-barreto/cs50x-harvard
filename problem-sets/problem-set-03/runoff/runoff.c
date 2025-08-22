@@ -25,7 +25,7 @@ int candidate_count;
 // Record preference if vote is valid
 int vote(int voter, int rank, const char *name) {
   for (int i = 0; i < candidate_count; i++) {
-    if (strcmp(name, candidates[i].name) == 0) {
+    if (strcmp(name, candidates[i].name) == 0) {  
       preferences[voter][rank] = i;
       return 1;
     }
