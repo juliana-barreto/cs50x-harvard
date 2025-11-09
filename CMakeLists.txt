@@ -21,7 +21,8 @@ foreach(C_FILE ${C_FILES})
     get_filename_component(EXECUTABLE_NAME ${C_FILE} NAME_WE)
 
     # 4. Create an executable target for each .c file found
-    add_executable(${EXECUTABLE_NAME} ${C_FILE})
+    add_executable(${EXECUTABLE_NAME} ${C_FILE}
+            problem-sets/problem-set-04/recover/recover.c)
 
     # Status message to indicate the executable created
     message(STATUS "Alvo criado: ${EXECUTABLE_NAME}")
