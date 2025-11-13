@@ -1,6 +1,4 @@
 #include "helpers.h"
-#include <math.h>
-#include <stdlib.h>
 
 // Convert image to grayscale
 void grayscale(int height, int width, RGBTRIPLE image[height][width]) {
@@ -13,34 +11,6 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width]) {
       pixel.rgbtBlue = gray;
       pixel.rgbtGreen = gray;
       pixel.rgbtRed = gray;
-
-      image[i][j] = pixel;
-    }
-  }
-  return;
-}
-
-// Convert image to sepia
-void sepia(int height, int width, RGBTRIPLE image[height][width]) {
-  for (int i = 0; i < height; i++) {
-    for (int j = 0; j < width; j++) {
-      RGBTRIPLE pixel = image[i][j];
-
-      int sepiaRed = round(0.393 * pixel.rgbtRed + 0.769 * pixel.rgbtGreen +
-                           0.189 * pixel.rgbtBlue);
-      if (sepiaRed > 255) sepiaRed = 255;
-
-      int sepiaGreen = round(0.349 * pixel.rgbtRed + 0.686 * pixel.rgbtGreen +
-                             0.168 * pixel.rgbtBlue);
-      if (sepiaGreen > 255) sepiaGreen = 255;
-
-      int sepiaBlue = round(0.272 * pixel.rgbtRed + 0.534 * pixel.rgbtGreen +
-                            0.131 * pixel.rgbtBlue);
-      if (sepiaBlue > 255) sepiaBlue = 255;
-
-      pixel.rgbtRed = sepiaRed;
-      pixel.rgbtGreen = sepiaGreen;
-      pixel.rgbtBlue = sepiaBlue;
 
       image[i][j] = pixel;
     }
@@ -64,8 +34,15 @@ void reflect(int height, int width, RGBTRIPLE image[height][width]) {
 // Blur image
 void blur(int height, int width, RGBTRIPLE image[height][width]) {
   RGBTRIPLE (*copy)[width] = calloc(height, width * sizeof(RGBTRIPLE));
-  if (copy == NULL)
+  if (copy == NULL) {
     return;
+  }
+
+  for (int i = 0; i < height; i++) {
+    for (int j = 0; j < width; j++) {
+      copy[i][j] = image[i][j];
+    }
+  }
 
   for (int i = 0; i < height; i++) {
     for (int j = 0; j < width; j++) {
@@ -91,17 +68,40 @@ void blur(int height, int width, RGBTRIPLE image[height][width]) {
       blurred.rgbtGreen = round(greenSum / pixelCount);
       blurred.rgbtBlue = round(blueSum / pixelCount);
 
-      copy[i][j] = blurred;
-    }
-  }
-
-  for (int i = 0; i < height; i++) {
-    for (int j = 0; j < width; j++) {
-      image[i][j] = copy[i][j];
+      image[i][j] = blurred;
     }
   }
 
   free(copy);
 
+  return;
+}
+
+// Detect edges
+void edges(int height, int width, RGBTRIPLE image[height][width]) {
+  RGBTRIPLE (*copy)[width] = calloc(height, width * sizeof(RGBTRIPLE));
+  if (copy == NULL) {
+    return;
+  }
+
+  for (int i = 0; i < height; i++) {
+    for (int j = 0; j < width; j++) {
+      copy[i][j] = image[i][j];
+    }
+  }
+
+  int Gx[3][3] = {{-1, 0, 1}, {-2, 0, 2}, {-1, 0, 1}};
+  int Gy[3][3] = {{-1, -2, -1}, {0, 0, 0}, {1, 2, 1}};
+
+  for (int i = 0; i < height; i++) {
+    for (int j = 0; j < width; j++) {
+      double sumGxRed = 0, sumGyRed = 0;
+      double sumGxGreen = 0, sumGyGreen = 0;
+      double sumGxBlue = 0, sumGyBlue = 0;
+
+    }
+  }
+
+  free(copy);
   return;
 }
