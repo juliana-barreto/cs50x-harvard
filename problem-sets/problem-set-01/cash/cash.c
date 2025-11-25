@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main (void) {
+int main(void) {
   int change = -1;
   do {
     printf("\nChange owed (in cents): ");
@@ -31,6 +31,8 @@ int main (void) {
     int totalCoins = quarters + dimes + nickels + pennies;
 
     printf("Total coins needed: %d\n", totalCoins);
-    return 0;
-  } while (change!= 0);
+
+  } while (change != 0);
+
+  return 0;
 }
