@@ -22,7 +22,12 @@ foreach(C_FILE ${C_FILES})
 
     # 4. Create an executable target for each .c file found
     add_executable(${EXECUTABLE_NAME} ${C_FILE}
-            problem-sets/problem-set-04/recover/recover.c)
+            problem-sets/problem-set-04/recover/recover.c
+            linkedlist.c
+            problem-sets/Tree.c
+            LinkedList.c
+            problem-sets/problem-set-01/cash/cash.c
+            problem-sets/problem-set-02/caesar/caesar.c)
 
     # Status message to indicate the executable created
     message(STATUS "Alvo criado: ${EXECUTABLE_NAME}")
