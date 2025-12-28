@@ -10,4 +10,7 @@
 !*.py
 !*.sql
 !*.db
-!.txt
+!*.txt
+!*.html
+!*.css
+!*.js

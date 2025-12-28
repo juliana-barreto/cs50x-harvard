@@ -1,0 +1,5 @@
+To determine the audio aura, I calculated the averages using the SQL query SELECT AVG(energy), AVG(valence), AVG(danceability) FROM songs;. The results showed an energy of approximately 0.66, a valence of 0.48, and a danceability of 0.72.
+
+Using a standard scale where values between 0.6 and 1.0 are considered high and values between 0.4 and 0.6 are moderate, I would characterize this listener's aura as highly energetic and danceable. The high danceability and energy scores suggest a strong preference for rhythmic and intense tracks suitable for movement. The moderate valence indicates that while the music is upbeat, it carries a somewhat serious or "moody" tone rather than being overtly cheerful.
+
+This method might not be representative because averages can hide outliers and distinct listening habits. For instance, if a user listens to extremes—like very sad songs (valence 0.0) and very happy songs (valence 1.0) equally—the average would suggest a neutral preference (0.5), which is false. A better approach would be to analyze clusters of songs or identify the mode (most frequent mood) to capture the variety in their taste.
