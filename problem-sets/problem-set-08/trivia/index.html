@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Part 1: Multiple Choice
+                let nextBtn = document.getElementById("next-btn");
+
+                let correct = document.querySelector(".correct");
+                correct.addEventListener("click", function() {
+                    this.classList.add("correct-answer");
+                    document.querySelector("#part1 .feedback").innerText = "Correct answer!";
+                    nextBtn.style.display = "block";
+                });
+
+                let incorrect = document.querySelectorAll(".incorrect");
+                incorrect.forEach(button => {
+                    button.addEventListener("click", function(){
+                        this.classList.add("wrong-answer");
+                        document.querySelector("#part1 .feedback").innerText = "Wrong answer!";
+                        nextBtn.style.display = "block";
+                    });
+                });
+
+                nextBtn.addEventListener("click", function() {
+                    document.getElementById("part1").style.display = "none";
+                    document.getElementById("part2").style.display = "block";
+                    this.style.display = "none";
+                });
+
+                // Part 2: Free Response
+                let checkBtn = document.getElementById("check");
+                checkBtn.addEventListener("click", function(){
+                    let input = document.getElementById("answer");
+                    let text = input.value.toLowerCase();
+                    if (text.includes("copy") || text.includes("no change") || text.includes("address")) {
+                        input.classList.add("correct-answer");
+                        document.querySelector("#part2 .feedback").innerText = "Good explanation!";
+                    } else {
+                        input.classList.add("wrong-answer");
+                        document.querySelector("#part2 .feedback").innerText = "Incorrect. Remember that Pass by Value creates a COPY.";
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section" id="part1">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>What does the "S" in SOLID principles stand for?</h3>
+                <div class="answers">
+                    <button type="button" class="incorrect">Secure Coding</button>
+                    <button type="button" class="incorrect">Scripting Language</button>
+                    <button type="button" class="correct">Single Responsibility</button>
+                    <button type="button" class="incorrect">Static Typing</button>
+                </div>
+                <p class="feedback"></p>
+                <button id="next-btn" type="button" style="display: none;">Next Question</button>
+            </div>
+
+            <div class="section" id="part2" style="display: none;">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Explain the difference between "Pass by Value" and "Pass by Reference". How does this affect the original variable?</h3>
+                <label for="answer">Answer:</label>
+                <input type="text" id="answer">
+                <button type="button" id="check">Check</button>
+                <p class="feedback"></p>
+            </div>
+        </div>
+    </body>
+</html>
