@@ -1,16 +1,2 @@
-*
 !*/
 !.gitignore
-!Makefile
-!*.c
-!*.h
-!*.wav
-!*.bmp
-!*.raw
-!*.py
-!*.sql
-!*.db
-!*.txt
-!*.html
-!*.css
-!*.js
