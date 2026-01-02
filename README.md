@@ -14,17 +14,18 @@ This repository contains my solutions to the problem sets and exercises for [CS5
 | 7 | SQL | [Songs](https://cs50.harvard.edu/x/psets/7/songs/), [Movies](https://cs50.harvard.edu/x/2025/psets/7/movies/), [Fiftyville](https://cs50.harvard.edu/x/psets/7/fiftyville/)| [Favorites](https://cs50.harvard.edu/x/2025/practice/favorites/), [Hall of Prophecy](https://cs50.harvard.edu/x/2025/practice/prophecy/) |
 | 8 | Web (HTML/CSS/JS) | [Trivia](https://cs50.harvard.edu/x/psets/8/trivia/), [Homepage](https://cs50.harvard.edu/x/2025/psets/8/homepage/) | [Radio Shack Redo](https://cs50.harvard.edu/x/2025/practice/redo/) |
 | 9 | Flask | [Birthdays](https://cs50.harvard.edu/x/psets/9/birthdays/), [Finance](https://cs50.harvard.edu/x/2025/psets/9/finance/) | [Hello, Flask](https://cs50.harvard.edu/x/2025/practice/helloflask/) |
-| Final | Final Project | [Final Project](https://cs50.harvard.edu/x/2025/project/) | - |
+| Final | Final Project | [Final Project](-) | - |
 
 ## 🛠 Built With
 
-![CLion](https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=white)
-<!--
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 -->
 
