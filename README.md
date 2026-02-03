@@ -33,11 +33,11 @@ As of now, I have successfully completed all weekly problem sets and practice pr
 </div>
 
 ## Final Project
-
-The final stage of the course involves developing the **Final Project**. I am building a **fact-checking website** for news and videos.
+The final stage of the course involves developing the **Final Project**. I am currently building **PairLife**, a Fullstack web application designed to act as an organization hub for couples.
+The platform centralizes the management of **finances, tasks, and shared goals**, offering a collaborative interface to facilitate transparency and planning for life together.
 The tech stack chosen for this project includes:
-* **Back-end:** Python with Flask.
-* **Templating Engine:** Jinja2.
-* **Database:** SQLite.
+* **Back-end:** Python with Flask & Jinja2.
+* **Front-end:** JavaScript, HTML, CSS.
+* **Database:** MySQL.
 
 <br />
