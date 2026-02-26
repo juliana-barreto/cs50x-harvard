@@ -33,11 +33,12 @@ As of now, I have successfully completed all weekly problem sets and practice pr
 </div>
 
 ## Final Project
-The final stage of the course involves developing the **Final Project**. I am currently building **PairLife**, a Fullstack web application designed to act as an organization hub for couples.
-The platform centralizes the management of **finances, tasks, and shared goals**, offering a collaborative interface to facilitate transparency and planning for life together.
-The tech stack chosen for this project includes:
-* **Back-end:** Python with Flask & Jinja2.
-* **Front-end:** JavaScript, HTML, CSS.
-* **Database:** MySQL.
+The final stage of the course involves developing the Final Project. I built GitHired, a professional Job CRM and automated tracking application designed to streamline the job hunt process for developers. The platform centralizes job management by automating data extraction from complex portals like Gupy, calculating a strategic Match Score for each opportunity, and providing a reactive dashboard to track application statuses and technical feedback in real-time. The tech stack chosen for this project includes:
+
+- Back-end: Python with Flask & SQLite (SQLAlchemy ORM).
+- Front-end: JavaScript, HTML5, TailwindCSS & Chart.js for data visualization.
+- Automation: Playwright for network-level data interception and web scraping.
+
+Check it [here](https://github.com/juliana-barreto/git-hired)!
 
 <br />
